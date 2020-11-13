@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Hireo dashboard by pye</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/all.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font.css">
+
+</head>
+<body>
+
+<!--------------------------------------------Navbar area---------------------------------->
+
+<nav class="navbar navbar-expand-lg bg-light-t shadow-sm p-0">
+	<div class="container-fluid">
+		<a class="navbar-brand px-3 py-3" href="#"><img src="assets/images/logo.png" width="110"></a>
+		
+	    <div class="collapse navbar-collapse justify-content-end">
+	      	<div class="navbar-nav px-3 nav-notification">
+		        <a class="nav-link text-green-t" href="#"><i class="far fa-bell"></i></a>
+		        <a class="nav-link text-green-t" href="#"><i class="far fa-envelope"></i></a>
+	    	</div>
+	    </div>
+
+	    <div class="navbar-nav justify-content-center">
+  			<a class=" px-4" href="#"><img src="assets/images/user-avatar-01.jpg" class="rounded-circle" width="50"></a>
+  		</div>
+
+  	
+  			<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+  			<span class="navbar-toggler-icon"></span>
+		</button>
+  		
+  		
+	</div>
+</nav>
+
+<!---------------------------------------------main area----------------------------------->
+<div class="container-fluid">
+	<!--------------------------------------Dashboard area--------------------------------->
+	<div class="display-flex bg-light-t">
+		<nav id="sidebarMenu"  class="left-side sidebar d-md-block collapse overflow-auto bg-light-t">
+			<ul class="nav flex-column">
+				<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-primary">
+          			<span class="pt-2 px-3">start</span>	
+        		</h6>
+				<li class="nav-item active py-1 px-5">
+					<a class="nav-link active text-primary" aria-current="page" href="# ">
+	              		Dashboard
+	              	</a>
+        		</li>
+
+        		<li class="nav-item py-1 px-3">
+					<a class="nav-link text-secondary" aria-current="page" href="#">
+	              		<i class="far fa-comments mr-2"></i>  Messages
+	              	</a>
+        		</li>
+
+        		<li class="nav-item py-1 px-3">
+					<a class="nav-link text-secondary" aria-current="page" href="#">
+	              		<i class="far fa-star mr-2"></i>  Bookmarks
+	              	</a>
+        		</li>
+
+        		<li class="nav-item py-1 px-3">
+					<a class="nav-link text-secondary" aria-current="page" href="#">
+	              		<i class="far fa-comment-dots mr-2"></i> Review
+	              	</a>
+        		</li>
+
+        		
+			</ul>
+
+			<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-primary">
+          		<span class="pt-2 px-3">Organise and Manage</span>	
+        	</h6>
+
+			<ul class="nav flex-column">
+				<li class="nav-item py-1 px-3">
+					<a class="nav-link text-secondary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#">
+	              		<i class="fas fa-briefcase mr-2"></i> Jobs <i class="fas fa-caret-down float-right"></i>
+	              	</a>
+	              	<ul class="collapse list-group" id="collapseExample">
+              			<li><a class="dropdown-item text-primary" href="#">Manage Job</a></li>
+              			<li><a class="dropdown-item text-primary" href="#">Manage candidate</a></li>
+              			<li><a class="dropdown-item text-primary" href="#">Post a Job</a></li>
+              		</ul>
+        		</li>
+
+        		<li class="nav-item py-1 px-3">
+					<a class="nav-link text-secondary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample" aria-current="page" href="#">
+	              		<i class="fas fa-tasks mr-2"></i>  <small>Tasks</small> <i class="fas fa-caret-down float-right"></i>
+	              	</a>
+
+	              	<ul class="collapse list-group" id="collapseExample2">
+              			<li><a class="dropdown-item text-primary" href="#">Manage Job</a></li>
+              			<li><a class="dropdown-item text-primary" href="#">Manage candidate</a></li>
+              			<li><a class="dropdown-item text-primary" href="#">Post a Job</a></li>
+              		</ul>
+        		</li>
+			</ul>
+
+
+			<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-primary">
+          		<span class="pt-2 px-3">Account</span>	
+        	</h6>
+
+			<ul class="nav flex-column">
+				<li class="nav-item py-1 px-3">
+					<a class="nav-link text-secondary" aria-current="page" href="#">
+	              		<i class="fas fa-cog mr-2"></i> Settings
+	              	</a>
+        		</li>
+
+        		<li class="nav-item py-1 px-3">
+					<a class="nav-link text-secondary" aria-current="page" href="#">
+	              		<i class="fas fa-power-off mr-2"></i> Logout
+	              	</a>
+        		</li>
+			</ul>
+
+
+			
+
+		</nav>
+		
+		<!-----------------------------------------Main area-------------------------------------->
+
+		<!------------------------cards----------------------->
+		
+		<div class="right-side bg-dark-t">
+
+			<div class="container pt-3">
+				<div class="row p-4">
+					<div class="col-md-9 px-0">
+						<h3>Hello, Xavier</h3>
+						<p class="text-muted">we are glad to see you again</p>
+					</div>
+					<div class="col-md-3 d-sm-flex justify-content-end p-0">
+						<div class="btn-group" role="group" aria-label="Basic example">
+							<button type="button" class="btn btn-dark" style="height: 40px" id="darkTheme">Dark theme <i class="fas fa-caret-right text-muted ml-2"></i></button>
+							<button type="button" class="btn btn-dark" style="height: 40px" id="lightTheme">Light theme</button>
+						</div>
+					</div>
+				</div>	
+			</div>
+
+			<div class="container p-4">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="card border-0 shadow-sm mb-2 p-3 bg-light-t">
+						  <div class="row g-0">
+						    <div class="col-7">
+						      	<div class="card-body">
+							        <h5 class="text-muted">Task Bid won</h5>
+							        <h1 class="text-green-t">22</h1>
+						      	</div>
+						    </div>
+						    <div class="col-5 bg-green d-flex align-middle">
+						      	<div class="card-icon d-flex"><i class="fas fa-hamburger green-color"></i></div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card border-0 shadow-sm mb-2 p-3 bg-light-t">
+						  <div class="row g-0">
+						    <div class="col-7">
+						      	<div class="card-body">
+							        <h5 class="text-muted">Task Bid won</h5>
+							        <h1 class="text-green-t">4</h1>
+						      	</div>
+						    </div>
+						    <div class="col-5 bg-magenta d-flex align-middle">
+						      	<div class="card-icon"><i class="fas fa-hamburger magenta-color"></i></div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card border-0 shadow-sm mb-2 p-3 bg-light-t">
+						  <div class="row g-0">
+						    <div class="col-7">
+						      	<div class="card-body">
+						        <h5 class="text-muted">Task Bid won</h5>
+						        <h1 class="text-green-t">28</h1>
+						      </div>
+						    </div>
+						    <div class="col-5 bg-yellow d-flex align-middle">
+						      	<div class="card-icon"><i class="fas fa-hamburger yellow-color"></i></div>
+						    	</div>
+						  	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

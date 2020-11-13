@@ -1,0 +1,153 @@
+:root{
+	--bg-light:#ffffff;
+	--bg-dark:#fbfbfb;
+	--text-green-t:#333333;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: var(--bg-dark);
+	font-family: 'Nunito', sans-serif;
+}
+
+.bg-light-t{
+	background-color:var(--bg-light);
+}
+
+.bg-dark-t{
+	background-color:var(--bg-dark);
+}
+
+.text-green-t{
+	color:var(--text-green-t);
+}
+
+.container-fluid{
+	padding: 0
+}
+
+/***************************colors**************************************/
+.green-color{
+	color:rgb(54, 189, 120)
+}
+
+.magenta-color{
+	color: rgb(184, 27, 127);
+}
+
+.yellow-color{
+	color: rgb(239, 168, 15);
+}
+
+.bg-green{
+	background-color: rgba(54, 189, 120, 0.07);rgba(54, 189, 120, 0.07);
+}
+
+.bg-magenta{
+	background-color: rgba(184, 27, 127, 0.07);
+}
+
+.bg-yellow{
+	background-color: rgba(239, 168, 15, 0.07);
+}
+
+/*****************************************main area****************************/
+
+.display-flex{
+	display: flex;
+	position: absolute;
+	width: 100%
+}
+
+@media screen and (max-width: 480px){
+	.left-side{
+		width: 80% !important;
+		z-index: 10;
+	}
+}
+
+.left-side{
+	width: 20%;
+}
+
+@media screen and (max-width: 480px){
+	.right-side{
+		width: 100%!important;
+		position: absolute;
+	}
+}
+
+.right-side, .right-nav{
+	width: 80%;
+}
+
+/**************************************Dashboard***************************************/
+
+.sidebar {
+  overflow-y: scroll;
+  padding: 0;
+  max-height: 85vh;
+  overflow-y: scroll;
+}
+
+.sidebar .nav-item.active {
+	background-color: #3d5af122;
+	border-left: 3px solid #3d5af1;
+}
+
+.nav-item{
+	box-sizing: content-box;
+	border-left: 3px solid transparent
+}
+.nav-item:hover{
+	background-color: #3d5af122;
+	border-left: 3px solid #3d5af1;
+	transition: .2s;
+	color:#3d5af1 !important;	
+}
+
+/**************************************Scroll bar *************************************/
+
+::-webkit-scrollbar{
+	width:4px;
+	margin-right: 20px
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background-color: #bbb
+}
+
+::-webkit-scrollbar-track{
+	background-color:#3d5af122;
+	width:10px;
+}
+
+/********************************************* Card *********************************/
+
+.card-icon{
+	margin: auto; 	
+	font-size:2.7rem;
+	padding: 10px
+}
+
+.nav-notification{
+	font-size:1.5rem;
+}
+
+.navbar{
+	z-index: 100
+}
+
+ul{
+	list-style: none
+}
+
+.dropdown-item:hover{
+	background-color:transparent;
+	transform: translateX(5px);
+	transition: .5s
+}
+
